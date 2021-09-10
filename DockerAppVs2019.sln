@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerAppVs2019", "DockerAppVs2019\DockerAppVs2019.csproj", "{68A59358-3797-440D-877D-11C80F46D67B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerAppvs2019Test", "DockerAppvs2019Test\DockerAppvs2019Test.csproj", "{208AC3D5-3F4F-49A8-8E8D-DC6482E9620A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{68A59358-3797-440D-877D-11C80F46D67B} = {68A59358-3797-440D-877D-11C80F46D67B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68A59358-3797-440D-877D-11C80F46D67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A59358-3797-440D-877D-11C80F46D67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A59358-3797-440D-877D-11C80F46D67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A59358-3797-440D-877D-11C80F46D67B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208AC3D5-3F4F-49A8-8E8D-DC6482E9620A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208AC3D5-3F4F-49A8-8E8D-DC6482E9620A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208AC3D5-3F4F-49A8-8E8D-DC6482E9620A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208AC3D5-3F4F-49A8-8E8D-DC6482E9620A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46B7634B-875F-4C19-BF19-5FBC67137591}
+	EndGlobalSection
+EndGlobal
